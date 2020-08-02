@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
+  <component name="AndroidGradleBuildConfiguration">
+    <option name="SYNC_PROJECT_BEFORE_BUILD" value="true" />
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="AvailableLibraryUpdateStorage">
+    <library-updates>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>appcompat-v7</name>
+        <version>26.0.0-alpha1</version>
+        <repository>Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support.test</group-id>
+        <name>runner</name>
+        <version>0.6-alpha</version>
+        <repository>Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support.test.espresso</group-id>
+        <name>espresso-core</name>
+        <version>2.3-alpha</version>
+        <repository>Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>design</name>
+        <version>26.0.0-alpha1</version>
+        <repository>Android Repository</repository>
+      </library-update>
+    </library-updates>
+    <last-search-timestamp>1593668988744</last-search-timestamp>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2a07dd91-8a0a-4d86-a9b1-dceb93246c7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/src/androidTest/java/com/example/bluetoothdemo/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/src/main/java/com/example/bluetoothdemo/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bluetoothdemo/src/test/java/com/example/bluetoothdemo/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/androidTest/java/com/example/leakcanarydemo/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/java/com/example/leakcanarydemo/ActivityCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/java/com/example/leakcanarydemo/AppBlockCanaryContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/java/com/example/leakcanarydemo/ExampleApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/java/com/example/leakcanarydemo/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/java/com/example/leakcanarydemo/OberverImple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/java/com/example/leakcanarydemo/Obesver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/java/com/example/leakcanarydemo/Obseverble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/java/com/example/leakcanarydemo/Single.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/java/com/example/leakcanarydemo/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leakcanarydemo/src/test/java/com/example/leakcanarydemo/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/androidTest/java/com/example/mdemo/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/java/com/example/mdemo/DbHepler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/java/com/example/mdemo/DbImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/java/com/example/mdemo/Hand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/java/com/example/mdemo/IvHanlder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/java/com/example/mdemo/Main2Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/java/com/example/mdemo/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/java/com/example/mdemo/Myapp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/res/layout/activity_main2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mdemo/src/test/java/com/example/mdemo/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/and_res_guard.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/src/androidTest/java/com/example/mvpdemo/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/src/main/java/com/example/mvpdemo/Apisever.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/src/main/java/com/example/mvpdemo/Art.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/src/main/java/com/example/mvpdemo/BannerApdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/src/main/java/com/example/mvpdemo/BaseData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/src/main/java/com/example/mvpdemo/BaseP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/src/main/java/com/example/mvpdemo/BaseView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/src/main/java/com/example/mvpdemo/Calculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/src/main/java/com/example/mvpdemo/CallBackListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/src/main/java/com/example/mvpdemo/CatePresnter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/src/main/java/com/example/mvpdemo/CatePresnterIpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/src/main/java/com/example/mvpdemo/Connt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/src/main/java/com/example/mvpdemo/DataP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/src/main/java/com/example/mvpdemo/GridPagerSnapHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/src/main/java/com/example/mvpdemo/HandlerErro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/src/main/java/com/example/mvpdemo/HomeCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/src/main/java/com/example/mvpdemo/HttpCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/src/main/java/com/example/mvpdemo/Main2Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/src/main/java/com/example/mvpdemo/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/src/main/java/com/example/mvpdemo/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/src/main/java/com/example/mvpdemo/MyHander.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvpdemo/src/main/java/com/

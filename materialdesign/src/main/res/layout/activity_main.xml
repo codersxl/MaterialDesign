@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--头部-->
+    <include
+        android:id="@+id/titlebar"
+        layout="@layout/toolbar" />
+    <!--DrawerLayout-->
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--主内容区域-->
+        <include layout="@layout/main" />
+        <!--左侧-->
+        <include layout="@layout/left_main" />
+        <!--右侧-->
+        <include layout="@layout/right_main" />
+    </androidx.drawerlayout.widget.DrawerLayout>
+</LinearLayout>
+
+
