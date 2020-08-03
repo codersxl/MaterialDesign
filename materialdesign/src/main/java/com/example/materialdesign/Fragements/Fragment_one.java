@@ -42,9 +42,6 @@ public class Fragment_one extends BaseFragment {
     }
 
 
-
-
-
     private void InitList() {
         new Thread() {
             @Override
@@ -60,7 +57,7 @@ public class Fragment_one extends BaseFragment {
 
     @Override
     protected void show() {
-        MyRecyclerViewAdapters myRecyclerViewAdapters = new MyRecyclerViewAdapters( list,getActivity());
+        MyRecyclerViewAdapters myRecyclerViewAdapters = new MyRecyclerViewAdapters(list, getActivity());
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity());
         tv.setLayoutManager(linearLayoutManager);
         tv.setAdapter(myRecyclerViewAdapters);

@@ -19,9 +19,12 @@ import androidx.viewpager.widget.ViewPager;
 import com.bumptech.glide.Glide;
 import com.example.materialdesign.Adapter.ViewPagers;
 import com.example.materialdesign.Fragements.BaseFragment;
+import com.example.materialdesign.Fragements.Fragemnt_three;
 import com.example.materialdesign.Fragements.Fragment_one;
+import com.example.materialdesign.Fragements.Fragment_two;
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.tabs.TabLayout;
 import com.wikikii.bannerlib.banner.IndicatorLocation;
 import com.wikikii.bannerlib.banner.LoopLayout;
@@ -41,7 +44,7 @@ public class ViewPagerActivity extends AppCompatActivity implements AppBarLayout
 
     @BindView(R.id.head_layout)
     BannerBgContainer headLayout;
-//    @BindView(R.id.toolbar)
+    //    @BindView(R.id.toolbar)
 //    Toolbar toolbar;
     @BindView(R.id.tablelayout)
     TabLayout tablelayout;
@@ -56,6 +59,7 @@ public class ViewPagerActivity extends AppCompatActivity implements AppBarLayout
     private List<BaseFragment> list = new ArrayList<>();
     private String mTabTitle[] = new String[]{"科技", "游戏", "装备", "创业", "想法"};
     private Window window;
+    private BottomSheetBehavior mBottomSheetBehavior;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,9 +68,15 @@ public class ViewPagerActivity extends AppCompatActivity implements AppBarLayout
         ButterKnife.bind(this);
         window = getWindow();
         initDatas();
+       // initBotton();
         initBanner();
 //        setToolbar(toolbar);
         initViewpager();
+
+    }
+
+    private void initBotton() {
+        mBottomSheetBehavior = BottomSheetBehavior.from(findViewById(R.id.tab_layout));
     }
 
     private void initBanner() {
@@ -126,8 +136,15 @@ public class ViewPagerActivity extends AppCompatActivity implements AppBarLayout
     }
 
     private void initDatas() {
+        BaseFragment insatnce;
         for (int i = 0; i < mTabTitle.length; i++) {
-            BaseFragment insatnce = Fragment_one.getInsatnce(mTabTitle[i]);
+            if (i == 0) {
+                insatnce = Fragment_two.getInstance();
+            } else if(i==1) {
+                insatnce = Fragemnt_three.getInstance();
+            }else {
+                insatnce = Fragment_one.getInsatnce(mTabTitle[i]);
+            }
             list.add(insatnce);
         }
 
@@ -138,28 +155,27 @@ public class ViewPagerActivity extends AppCompatActivity implements AppBarLayout
     protected void onResume() {
         super.onResume();
         appBarLayout.addOnOffsetChangedListener(this);
-        Log.d("-onResume-","onResume");
+        Log.d("-onResume-", "onResume");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.d("-onPause-","onPause");
+        Log.d("-onPause-", "onPause");
         appBarLayout.removeOnOffsetChangedListener(this);
     }
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     @Override
     public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
-        Log.d("---verticalOffset--", verticalOffset + "");
+
         if (verticalOffset <= -headLayout.getHeight() / 2) {
             collapsingToolbarLayout.setTitle("hello");
             //使用下面两个CollapsingToolbarLayout的方法设置展开透明->折叠时你想要的颜色
             collapsingToolbarLayout.setExpandedTitleColor(getResources().getColor(android.R.color.transparent));
             collapsingToolbarLayout.setCollapsedTitleTextColor(getResources().getColor(R.color.white));
-           // window.setStatusBarColor(getResources().getColor(R.color.fuck));
+            // window.setStatusBarColor(getResources().getColor(R.color.fuck));
             window.setStatusBarColor(Color.TRANSPARENT);
-
         } else {
             collapsingToolbarLayout.setTitle("");
             window.setStatusBarColor(Color.TRANSPARENT);
